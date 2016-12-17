@@ -1,0 +1,476 @@
+/* Begin CSS Reset code */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* End CSS Reset code */
+
+.left {
+    width: 15%;
+    float: left;
+    height: 100%;
+    position: fixed;
+}
+.right {
+    width: 85%;
+    float: right;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+img.cover {
+    width=100%;
+    height=100%;
+}
+html {
+    background: white;
+}
+body {
+    background-image: url("homepage.jpg") width: 100%;
+    font-family: helvetica;
+    san-serif
+}
+header {
+    float: right;
+    background-color: white;
+    height: 100%;
+}
+
+}
+aside {}
+
+}
+article {
+    background:;
+    width: 100%;
+}
+div.img {
+    float: left;
+    margin-left: 200px;
+}
+div.imgicon {
+    float: left;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+div.img2 {
+    float: left;
+    margin-left: 0px;
+}
+
+img.paddingleft {
+    padding-left: 10px;
+}
+div.img:hover {
+    border: 0px solid #777;
+}
+div.desc {
+    padding: 10px;
+    text-align: right;
+    font-family: Ariel;
+    border: 0px;
+}
+footer {
+    background:white;
+    height:50px;
+    clear:both;
+}
+h2 {
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+    font-size: 25pt;
+    font-family: Garamond,
+    Baskerville;
+}
+P.blog {
+    margin-left: 300px;
+    margin-right:100px;
+    padding-bottom: 100px;
+    text-align: justify,
+    center;
+    font-family: Garamond,
+    Baskerville;
+}
+h1.ta {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70pt;
+    margin-bottom:0pt;
+    line-height: 35pt;
+    font-family: Arial;
+}
+h1.lastname {
+    text-align: center;
+    font-size: 15px;
+}
+h1.contact {
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 67.7%;
+    font-weight: bold;
+    font-family: Arial;
+}
+h1.kontact {
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 250%;
+    font-weight: bold;
+    font-family: Arial;
+}
+.description {
+    text-align: left;
+    font-size: 12pt;
+    margin-top: 70%;
+    margin-left: 10%;
+    height: 50%;
+}
+p.footer {
+    text-align: center;
+    margin-left:390px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    color: white;
+    font-family: Garamond,
+    Baskerville;
+}
+h1.center {
+    text-align: center;
+    font-size: 40pt;
+    font-weight: 400;
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-family: helvetica;
+    san-serif;
+}
+h1.emailme {
+    text-align: left;
+    font-size: 15pt;
+    font-weight: bold;
+    padding-top: 260px;
+}
+h1.resume {
+    text-align: right;
+    font-size: 15pt;
+    margin-right: 9%;
+    font-weight: bold;
+    margin-top: 31%;
+}
+#block-grid {
+    width:91.5%;
+    float:right;
+}
+.block {
+    width:430px;
+    margin:8px 8px;
+    display:block;
+    /*    overflow:hidden;*/
+    position:relative;
+    float:left;
+}
+.block img {
+    width:100%;
+    height:100%;
+}
+.block-text {
+    position:absolute;
+    height:265px;
+    top:0;
+    opacity: 0;
+    width:100%;
+    background:#fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 165px;
+    font-size: 50pt;
+}
+.block:hover > .block-text {
+    opacity: 1;
+}
+.me {
+    text-align: left;
+    padding-left: 9.4%;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin-top: 5%;
+    padding: 0;
+    overflow: hidden;
+    width:350px;
+    position:fixed;
+    float:right;
+    right:-10px;
+    background:#fff;
+    z-index: 10;
+}
+.topbar {
+    margin-right:100px;
+}
+#cssnav {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+li {
+    float: right;
+    /*    margin-right: 26px;*/
+    padding:0 15px;
+}
+
+li a.bar {
+    display: block;
+    color: lightgrey;
+    text-align: right;
+    padding: 30px 0px;
+    font-family: helvetica;
+    san-serif;
+    font-size: 12pt;
+}
+a.bar {
+    color:lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.bar:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.bar:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+li a.bar2 {
+    display: block;
+    color: lightgrey;
+    text-align: right;
+    padding: 30px 0px;
+    font-family: helvetica;
+    san-serif;
+    font-size: 12pt;
+}
+a.bar2 {
+    color:lightgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.bar2:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.bar2:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+H1.active {
+    color: green;
+    font-weight:bold;
+    background-color: aqua; 
+    text-align: center;
+    font-family: helvetica, san-serif; 
+    font-size: 12pt; 
+    width: auto;
+    opacity: 1;
+    margin: 10%;
+}
+
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon
+{
+  z-index: 1;
+  width: 3000px;
+}
+
+.middle
+{
+  z-index: 500;
+  width: 4000px;
+}
+
+.front
+{
+  z-index: 1000;
+  width: 6000px;
+}
+
+
+.margin1 {
+    padding: 1px;
+}
+
+.margin2 {
+    padding: 1px;
+}
+
+.follower {
+     font-family: helvetica;
+    san-serif;
+    font-size: 12pt;
+    color: black; 
+    text-align: left; 
+    z-index: 1000;
+    width: 240px;
+    position: fixed;
+}
+h1.follower {
+    font-family: helvetica;
+    san-serif;
+    font-size: 12pt;
+    color: black; 
+    padding: 0;
+    margin: 0;
+}
